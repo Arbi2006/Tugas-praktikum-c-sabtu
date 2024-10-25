@@ -1,20 +1,19 @@
-#include <stdio.h>;
+#include <stdio.h>
+
 
 int main()
 {
 	
-	int n;
+	int a;
 	
-	printf("Masukan N: ");
-	scanf("%d", &n);
-	
-	if( n > 50){
-		n = n - 25;
-	} else {
-		n = n + 10;
-	}
-	
-	printf("Nilai N: %d\n", n);
+	printf("Masukan Bilangan Bulat: ");
+	scanf("%d", &a);
+	 
+	 if( a%2 == 1) {
+	 	printf ("\nGanjil", a);
+	 }else {
+	 	printf("\nGenap", a);
+	 }
 	
 	return 0;
 }
